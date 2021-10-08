@@ -1,0 +1,13 @@
+.App {
+  text-align: left;
+}
+
+.player-wrapper {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.red {
+  color: red;
+}
+

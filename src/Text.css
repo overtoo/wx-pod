@@ -1,0 +1,18 @@
+.App {
+  text-align: left;
+}
+
+.text {
+  margin-left: 30px;
+}
+
+.red {
+  color: red;
+}
+.red-border {
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+  padding: 3px;
+  /* border: 1px; */
+}

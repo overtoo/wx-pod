@@ -16,3 +16,7 @@
   padding: 3px;
   /* border: 1px; */
 }
+
+.arrow {
+  cursor: pointer;
+}

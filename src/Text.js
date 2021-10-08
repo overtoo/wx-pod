@@ -48,14 +48,16 @@ function Text({ getCurrentTime, setCurrentTime }) {
         <p>
           {index === activeSenIndex(getCurrentTime) ? (
             <div>
-              <span className="red">{" ➡ "}</span>
+              <span className="arrow red">{" ➡ "}</span>
               <span className="red-border">
                 {fmtMSS(item.time)} {item.text}
               </span>
             </div>
           ) : (
             <div>
-              <span onClick={() => setCurrentTime(item.time)}>{" ➡ "}</span>
+              <span className="arrow" onClick={() => setCurrentTime(item.time)}>
+                {" ➡ "}
+              </span>
               <span>
                 {fmtMSS(item.time)} {item.text}
               </span>

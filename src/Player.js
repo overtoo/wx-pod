@@ -8,6 +8,13 @@ const useAudio = (url, setGetCurrentTime, currentTime) => {
   const toggle = () => setPlaying(!playing);
 
   useEffect(() => {
+    window.addEventListener("touchstart", () => {
+      document.getElementById("audio").muted = false;
+      document.getElementById("audio").play();
+    });
+  });   
+
+  useEffect(() => {
     if (currentTime) {
       audio.currentTime = currentTime;
     }

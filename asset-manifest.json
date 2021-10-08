@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wx-pod/static/css/main.9b63a329.chunk.css",
+    "main.js": "/wx-pod/static/js/main.dd8b0c0b.chunk.js",
+    "main.js.map": "/wx-pod/static/js/main.dd8b0c0b.chunk.js.map",
+    "runtime-main.js": "/wx-pod/static/js/runtime-main.9eb1783f.js",
+    "runtime-main.js.map": "/wx-pod/static/js/runtime-main.9eb1783f.js.map",
+    "static/js/2.7bd58895.chunk.js": "/wx-pod/static/js/2.7bd58895.chunk.js",
+    "static/js/2.7bd58895.chunk.js.map": "/wx-pod/static/js/2.7bd58895.chunk.js.map",
+    "static/js/3.f5f35ed0.chunk.js": "/wx-pod/static/js/3.f5f35ed0.chunk.js",
+    "static/js/3.f5f35ed0.chunk.js.map": "/wx-pod/static/js/3.f5f35ed0.chunk.js.map",
+    "index.html": "/wx-pod/index.html",
+    "static/css/main.9b63a329.chunk.css.map": "/wx-pod/static/css/main.9b63a329.chunk.css.map",
+    "static/js/2.7bd58895.chunk.js.LICENSE.txt": "/wx-pod/static/js/2.7bd58895.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/wx-pod/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9eb1783f.js",
+    "static/js/2.7bd58895.chunk.js",
+    "static/css/main.9b63a329.chunk.css",
+    "static/js/main.dd8b0c0b.chunk.js"
+  ]
+}

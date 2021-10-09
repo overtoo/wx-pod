@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NavBar from "./NavBar";
 import Text from "./Text";
 import Player from "./Player";
+import Words from "./Words";
 import "./Reader.css";
 
 function Reader() {
@@ -22,7 +23,17 @@ function Reader() {
           url="https://github.com/overtoo/test/raw/main/4489231.m4a"
         />
       </div>
-      <Text getCurrentTime={getCurrentTime} setCurrentTime={setCurrentTime} />
+      <div className="container">
+        <div className="text-wrapper">
+          <Text
+            getCurrentTime={getCurrentTime}
+            setCurrentTime={setCurrentTime}
+          />
+        </div>
+        <div className="words-wrapper">
+          <Words />
+        </div>
+      </div>
     </div>
   );
 }

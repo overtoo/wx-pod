@@ -11,3 +11,13 @@
   color: red;
 }
 
+.words-wrapper {
+  width: 50%;
+}
+.text-wrapper {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+}
